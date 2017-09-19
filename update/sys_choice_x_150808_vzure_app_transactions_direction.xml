@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="direction" table="x_150808_vzure_app_transactions" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>direction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inbound</label>
+            <language>en</language>
+            <name>x_150808_vzure_app_transactions</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-01 21:52:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ea3ac486f8103005d4e52b10b3ee4ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-01 21:52:37</sys_updated_on>
+            <value>inbound</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>direction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outbound</label>
+            <language>en</language>
+            <name>x_150808_vzure_app_transactions</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-01 21:52:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62b3ac486f8103005d4e52b10b3ee475</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-01 21:52:54</sys_updated_on>
+            <value>outbound</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>direction</element>
+            <name>x_150808_vzure_app_transactions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-01 21:52:37</sys_created_on>
+            <sys_id>85b36cc46f8103005d4e52b10b3ee4bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>direction</sys_name>
+            <sys_package display_value="VZURE Applications" source="x_150808_vzure_app">bb716bf36f3003005d4e52b10b3ee4ea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="VZURE Applications">bb716bf36f3003005d4e52b10b3ee4ea</sys_scope>
+            <sys_update_name>sys_choice_x_150808_vzure_app_transactions_direction</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-01 21:52:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

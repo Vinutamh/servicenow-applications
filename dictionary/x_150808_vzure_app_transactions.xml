@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Transactions" max_length="40" name="x_150808_vzure_app_transactions" type="collection">
+        <element choice="1" label="Direction" mandatory="true" max_length="40" name="direction" type="choice">
+            <choice>
+                <element label="Inbound" value="inbound"/>
+                <element label="Outbound" value="outbound"/>
+            </choice>
+        </element>
+        <element label="Message" mandatory="true" max_length="40" name="message" type="string"/>
+        <element label="Request Number" mandatory="true" max_length="40" name="request_number" type="string"/>
+        <element label="Status" mandatory="true" max_length="40" name="status" type="string"/>
+        <element label="Task Id" mandatory="true" max_length="40" name="task_id" type="string"/>
+        <element label="Transaction Id" mandatory="true" max_length="40" name="transaction_id" type="integer"/>
+    </element>
+</database>

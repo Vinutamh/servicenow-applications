@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Accounts" max_length="40" name="x_150808_vzure_app_integration_accounts" type="collection">
+        <element label="Account UUID" mandatory="true" max_length="40" name="account_uuid" type="string"/>
+        <element choice="1" label="Destination" mandatory="true" max_length="40" name="destination" type="choice">
+            <choice>
+                <element label="Cisco UCS Director" value="ucsd"/>
+                <element label="Infoblox" value="infoblox"/>
+            </choice>
+        </element>
+        <element label="VIA Access Key" mandatory="true" max_length="40" name="via_access_key" type="string"/>
+        <element label="VIA IP Address" mandatory="true" max_length="40" name="via_ip_address" type="ip_addr"/>
+    </element>
+</database>
